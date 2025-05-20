@@ -1,0 +1,24 @@
+.home, .header{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(17, 220, 227);
+    color: rgb(0, 0, 0)
+}
+
+.menu nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+}
