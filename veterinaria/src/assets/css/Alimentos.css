@@ -1,0 +1,80 @@
+/* Contenedor principal */
+.alimentos-container {
+  background-color: #f0f9f9;
+  padding: 30px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1a2a2a;
+}
+
+/* Título */
+.titulo-alimentos {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #0d4c4c;
+  text-shadow: 1px 1px 2px rgba(13, 76, 76, 0.3);
+}
+
+/* Contenedor para lista  */
+.grupo_alimentos {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* alimento en filas */
+.alimento-card {
+  display: flex;
+  background-color: #dff6f0;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(13, 76, 76, 0.15);
+  padding: 20px;
+  align-items: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.alimento-card:hover {
+  box-shadow: 0 8px 20px rgba(13, 76, 76, 0.3);
+}
+
+/* Imagenes a la izquierda */
+.alimento-card img {
+  width: 140px;
+  height: 140px;
+  border-radius: 15px;
+  object-fit: cover;
+  margin-right: 30px;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Texto del contenido */
+.alimento-card h2 {
+  margin: 0 0 12px 0;
+  color: #06514d;
+  font-size: 1.7rem;
+}
+
+.precio {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: #084d4d;
+}
+
+.descripcion {
+  font-size: 1rem;
+  color: #2f4f4f;
+  margin-bottom: 10px;
+  max-width: 500px;
+}
+
+.disponibilidad {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #056968;
+}
+
