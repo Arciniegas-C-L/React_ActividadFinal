@@ -1,0 +1,89 @@
+.medicamentos-container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.medicamentos-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.medicamentos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.medicamento-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.medicamento-card:hover {
+    transform: translateY(-5px);
+}
+
+.medicamento-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.medicamento-header h2 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin: 0;
+    flex: 1;
+}
+
+.animal-tag {
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+.animal-tag.perro {
+    background-color: #3498db;
+}
+
+.animal-tag.gato {
+    background-color: #e74c3c;
+}
+
+.animal-tag.ave {
+    background-color: #2ecc71;
+}
+
+.medicamento-info {
+    color: #666;
+}
+
+.medicamento-info p {
+    margin: 0.5rem 0;
+    line-height: 1.4;
+}
+
+.medicamento-info .precio {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .medicamentos-container {
+        padding: 1rem;
+    }
+
+    .medicamentos-grid {
+        grid-template-columns: 1fr;
+    }
+} 
