@@ -1,0 +1,81 @@
+/* Contenedor general */
+.productos-container {
+    background-color: #abfbfb;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.titulo-productos {
+    width: 100%;
+    text-align: center;
+    font-size: 2.79rem;
+    color: #131212;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Producto individuales */
+.producto-card {
+    background-color: hsl(0, 60%, 98%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(78, 206, 23, 0.1);
+    width: 220px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+/*titulos para los juguetes*/
+.titulos-juguetes {
+    width: 100%;
+    text-align: center;
+    font-size: 2.6rem;
+    color: #131212;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+/* Efecto Movimiento*/
+.producto-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Nombreproducto */
+.producto-card h2 {
+    background-color: #9afdfd;
+    padding: 8px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    color: #282828;
+    margin-bottom: 15px;
+}
+
+
+/* Precio */
+.producto-card p.precio {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(21, 18, 25);
+}
+
+/* Descripción */
+.producto-card p.descripcion {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    color: rgb(40, 40, 40);
+}
+
+/* Imagen */
+.producto-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
