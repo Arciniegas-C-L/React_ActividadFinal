@@ -20,6 +20,7 @@ export default function Header() {
                         <li className="nav-item"><Link to="/" onClick={() => scrollToSection('servicios')} className="nav-link">Servicios</Link></li>
                         <li className="nav-item"><Link to="/" onClick={() => scrollToSection('nosotros')} className="nav-link">Nosotros</Link></li>
                         <li><Link to="/animales" className='nav-link'>Animales</Link></li>
+                        <li><Link to="/alimentos" className='nav-link'>Alimentos</Link></li>
                         <li><Link to="/medicamentos" className='nav-link'>Medicamentos</Link></li>
                         <li><Link to="/productos" className='nav-link'>Productos</Link></li>
                         <li><Link to="/citas" className='nav-link'>Citas Medicas</Link></li>
