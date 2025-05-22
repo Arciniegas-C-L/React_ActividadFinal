@@ -30,6 +30,7 @@
     height: 200px;
     object-fit: contain;
     border-radius: 0.5rem;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
 }
 
 .animal-info {
